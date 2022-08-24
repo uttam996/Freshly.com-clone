@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .meals_main {
+            display: flex;
+
+        }
+
+        .products {
+            display: grid;
+            width: 70%;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;        
+          
+        }
+    
+
+
+   
+            
+
+        #item {
+            cursor: pointer;
+            
+
+           
+        }
+
+        #item img {
+            width: 100%;
+         
+            height: 180px;
+            object-fit: cover;
+            transition: all 0.3s ease-in-out;
+        }
+        #img_cont{
+           
+            overflow: hidden;
+            border-radius: 20px;
+        }
+
+        #item img:hover {
+            transform: scale(1.1);
+        }
+
+        #item>h3 {
+            font-weight: 500;
+            font-size: 17px;
+            transition: all 0.5s ease-in-out;
+        }
+
+        #item>h3:hover {
+            color: #357471;
+        }
+
+        #item>p {
+            margin-top: -11px;
+            color: #357471;
+            font-weight: 400;
+        }
+
+        #price_div {
+            display: flex;
+
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 15px;
+            margin-top: -10px;
+        }
+
+        #price_div {
+            display: flex;
+
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 15px;
+        }
+
+        #price_div>p {
+            font-size: 18px;
+            font-weight: 600;
+            color: #357471;
+        }
+
+        #price_div>div {
+            background-color: #2a6dff;
+            font-size: 30px;
+
+
+            color: white;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            border-radius: 50%;
+            height: 20px;
+            width: 20px;
+
+
+        }
+    </style>
+    <style>
+        .products{
+            height: 100vh;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            
+        }
+        #cart_sidebar{
+            width: 30%;
+            height: 100vh;
+           
+        }
+        .cart_cont{
+           
+            height: 70vh;
+            overflow-y: scroll;
+            overflow-x:hidden ;
+        }
+        .delhivary{
+            display: flex;
+            padding: 0px 10px;
+        }
+        .delhivary>P:nth-child(2){
+            color: blue;
+            font-weight: 400;
+            text-decoration: underline;
+        }
+        .delhivary>P:nth-child(1){
+            
+            font-weight: 300;
+            
+        }
+        .delhivary>P:nth-child(1)>b{
+            
+            font-weight: 500;
+            
+        }
+
+        .cart_item{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 100px;
+            padding: 0px 10px;
+           
+        }
+        .cart_item>img{
+            height: 100%;
+        }
+        .plus_mines{
+         height: 100%;
+        
+        }
+        .plus_mines div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        
+        }
+        .plus_mines div:hover{
+       background-color: rgb(215, 215, 215);
+        
+        }
+        .plus_mines>div:nth-child(1){
+            color: #2a6dff;
+            font-size: larger;
+        
+        }
+        .plus_mines>div{
+            color: gray;
+         
+            height: 50%;
+        
+        }
+        
+    </style>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+</head>
+
+<body>
+    <div class="meals_main">
+        <div class="products">
+        </div>
+        <div id="cart_sidebar">
+            <div class="delhivary">
+                <p>My delhivary for:<b>Friday, sep 2</b></p>
+                <p>clear all</p>
+            </div>
+            <div class="cart_cont">
+                <div class="cart_item">
+                    <img src="https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_90,w_90/v1626451153/production-meal-without-background-image-71923e93-c22e-4f27-9119-fda4e9e74978.png" alt="">
+                    <div><p>8 baked turkey Meatballs</p>
+                     <h3>58$</h3>
+                    </div>
+                    <div class="plus_mines">
+                        <div><h1>+</h1></div>
+                        <div><h1>-</h1></div>
+                       
+                    </div>
+                </div>
+                <div class="cart_item">
+                    <img src="https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_90,w_90/v1626451153/production-meal-without-background-image-71923e93-c22e-4f27-9119-fda4e9e74978.png" alt="">
+                    <div><p>8 baked turkey Meatballs</p>
+                     <h3>58$</h3>
+                    </div>
+                    <div class="plus_mines">
+                        <div><h1>+</h1></div>
+                        <div><h1>-</h1></div>
+                       
+                    </div>
+                </div>
+                <div class="cart_item">
+                    <img src="https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_90,w_90/v1626451153/production-meal-without-background-image-71923e93-c22e-4f27-9119-fda4e9e74978.png" alt="">
+                    <div><p>8 baked turkey Meatballs</p>
+                     <h3>58$</h3>
+                    </div>
+                    <div class="plus_mines">
+                        <div><h1>+</h1></div>
+                        <div><h1>-</h1></div>
+                       
+                    </div>
+                </div>
+                <div class="cart_item">
+                    <img src="https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_90,w_90/v1626451153/production-meal-without-background-image-71923e93-c22e-4f27-9119-fda4e9e74978.png" alt="">
+                    <div><p>8 baked turkey Meatballs</p>
+                     <h3>58$</h3>
+                    </div>
+                    <div class="plus_mines">
+                        <div><h1>+</h1></div>
+                        <div><h1>-</h1></div>
+                       
+                    </div>
+                </div>
+                <div class="cart_item">
+                    <img src="https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_90,w_90/v1626451153/production-meal-without-background-image-71923e93-c22e-4f27-9119-fda4e9e74978.png" alt="">
+                    <div><p>8 baked turkey Meatballs</p>
+                     <h3>58$</h3>
+                    </div>
+                    <div class="plus_mines">
+                        <div><h1>+</h1></div>
+                        <div><h1>-</h1></div>
+                       
+                    </div>
+                </div>
+
+            </div>
+            
+   
+
+        </div>
+    </div>
+
+</body>
+</html>
+<script type="module">
+    import data from "./index.js"
+
+    function create(el) {
+        return document.createElement(el)
+    }
+    function getEliment(el) {
+        return document.querySelector(el)
+    }
+    let cont = getEliment(".products")
+    const displayData = (data) => {
+        data.forEach((el) => {
+            let div = create("div")
+            let div_img = create("div")
+            div.id = "item"
+            let img = create("img")
+            let tittle = create("h3")
+            let p = create("p")
+            let price = create("p")
+            let btn = create("div")
+            div_img.append(img)
+            div_img.id="img_cont"
+            btn.addEventListener("click", () => {
+                Addtocart(el)
+            })
+
+            let price_div = create("div")
+
+            btn.append("+")
+            price_div.id = "price_div"
+            price.innerText = el.price
+            img.src = el.img
+            tittle.innerText = el.tittle
+            p.innerText = el.Nutritions
+
+            price_div.append(price, btn)
+            div.append(div_img, tittle, p, price_div)
+            cont.append(div)
+        });
+
+        //         {
+        //     "img": "https://res.cloudinary.com/freshly/image/upload/c_scale,w_640/c_crop,h_341,w_512/v1659483513/production-meal-image-1d053d43-fedb-4c71-93e4-615f29442853.jpg",
+        //     "tittle": "Hearty Veggie Bolognese",
+        //     "Nutritions": "490 Cal | Gluten Free | Single-Serve"
+        //   },
+
+    }
+
+    const Addtocart = (el) => {
+        let arr = JSON.parse(localStorage.getItem("mealsCart")) || []
+        arr.push(el)
+        localStorage.setItem("mealsCart", JSON.stringify(arr))
+    }
+    displayData(data)
+
+
+
+</script>
