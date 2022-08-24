@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#invisible_navbar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: 2px solid red;
+}
+#invisible_navbar>img{
+    width: 5%;
+    row-gap: 20%;
+    margin-left: 4%;
+}
+ #navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid blue;
+    background-color: #fffdf7;
+}
+#freshly_logo{
+    width: 20%;
+    border: 2px solid red;
+    padding: 2%;
+} 
+#freshly_logo>img{
+    width: 50%;
+
+}
+#titles{
+    display: flex;
+    padding: 2%;
+}
+#titles>a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+}
+#titles>a:hover{
+    color: #2a6dff;
+}
+#login_signup{
+    display: flex;
+    width: 12%;
+    padding: 2%;
+}
+#login_signup>.signup{
+    margin-left: 30px;
+}
+.signup>button{
+    border: 0px solid red;
+    background-color: #3167ff;
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.login{
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.login:hover{
+    color: #2a6dff;
+}
+#explore_discovery{
+    border:2px solid blue;
+    display: flex;
+}
+#cooked,#hit_reset{
+    width: 50%;
+    height:700px;
+    border: 2px solid red;
+}
+#hit_reset>img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    object-position: 30%;
+}
+#cooked{
+    background-color: #fef9ea;
+}
+.cooked_container{
+    padding: 100px 50px;
+}
+.cooked_container>h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    columns: #333;
+    margin-bottom: 20px;
+}
+.cooked_container>h2{
+    margin-bottom: 20px;
+}
+.cooked_container>h4{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    border:0px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+input[type="text"]{
+    width: 70%;
+    padding: 10px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
