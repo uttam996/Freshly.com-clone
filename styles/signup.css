@@ -1,0 +1,231 @@
+#navbar img {
+    width: 116px;
+    height: 27px;
+}
+
+svg {
+    overflow: hidden;
+}
+
+#navbar img,
+svg {
+    vertical-align: middle;
+}
+
+
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    background-color: #fff;
+    /* border: 1px solid red; */
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(237, 237, 237);
+    margin: auto;
+    /* position: sticky;
+    top: 0; */
+
+}
+
+#list li {
+    display: inline-block;
+    line-height: 10px;
+    padding: 10px;
+    color: #5e5a5a;
+    line-height: 0px;
+    background-color: #fff;
+}
+
+#span {
+    color: #2a6dff;
+    font-size: 19px;
+    background-color: transparent;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+i {
+    color: #2a6dff;
+    margin-right: 10px;
+    font-size: 21px;
+    align-items: center;
+}
+
+#signup {
+    background: hsla(0, 0%, 100%, .8);
+    margin: auto;
+    position: absolute;
+    top: 230px;
+    left: 23%;
+    padding: 30px 70px;
+}
+
+#banner img {
+    display: block;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+#list {
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+#signup h1 {
+    font-size: 48px;
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#signup h2 {
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 500px;
+}
+
+#signup #email {
+    /* padding: 10px 60px; */
+    width: 40%;
+    padding: 8px 0px;
+
+}
+
+#signup input[type="email"] {
+    text-align: left;
+    font-size: larger;
+
+}
+
+#signup input[type="number"] {
+    text-align: left;
+    font-size: larger;
+    margin-right: 5px;
+
+
+}
+
+#signup #Zip {
+    margin-left: 10px;
+    width: 30%;
+    padding: 8px 0px;
+
+}
+
+#signup #btn {
+
+    font-weight: 500px;
+    color: #fff;
+    background-color: #2a6dff;
+    border-color: #2a6dff;
+    padding: 8px 1rem;
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+
+* {
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#btn {
+    width: 20%;
+}
+
+#signup p {
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 30px;
+
+}
+
+#col1,
+#col {
+    color: #2a6dff;
+}
+
+.common_text {
+    text-align: center;
+}
+
+.contentBx {
+    width: 80%;
+    margin: auto;
+}
+
+.title {
+    transition: background 0.2sec;
+    display: block;
+    text-align: left;
+    cursor: pointer;
+    padding: 14px;
+    font-size: 16px;
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+
+.title:hover {
+    color: #2a6dff;
+}
+
+.title::after {
+    content: "\25be";
+    float: right;
+    transform: scale(2);
+    color: #2a6dff;
+}
+
+
+.title--active+.content {
+    display: block;
+    max-height: 200px;
+    transition-delay: 1ms;
+
+    /* overflow-y: scroll; */
+}
+
+
+.title--active {
+    transition: 0.5sec;
+    color: #2a6dff;
+}
+
+.title--active::after {
+    content: "\25b4";
+
+}
+
+.content p {
+    margin-top: 0px;
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 520;
+    line-height: 25px;
+    color: #303030;
+
+}
+
+.content {
+    /* overflow: hidden;
+   
+    transition: max-height 0.2s; */
+    display: none;
+    padding: 10px;
+    overflow: auto;
+    position: relative;
+
+}
+
+#accordion {
+    position: absolute;
+    width: 90%;
+}
+
+#showdata {
+    height: 200px;
+    border: 1px solid red;
+}
