@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+#container
+{
+    border: 2px solid fuchsia;
+}
+#about-container
+{
+    border: 1px solid red;
+    margin: auto;
+}
+#inner-about-container
+{
+    border: 1px solid green;
+    /* width: 70%; */
+    margin: auto;
+    /* height: 600px; */
+    text-align: center;
+}
+#inner-about-container>p
+{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#about-content
+{
+    background-color: #fffdf7;
+    margin-bottom: 30px;
+}
+#about-firstPara
+{
+    font-size: 25px;
+    font-weight: 600;
+    color:#333;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+#about-secondPara
+{
+    font-size: 10px;
+    color: #333;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+/* Our Food Philosophy */
+
+#food_container
+{
+    border: 1px solid red;
+    text-align: center;
+}
+#food_firstpara
+{
+    font-size: 27px;
+    color: #333;
+    margin-top: 30px;
+    font-weight: 600;
+}
+#food_secondpara
+{
+    font-size: 9px;
+    color: #333;
+    font-weight: 500;
+}
+#food_items
+{
+    display: flex;
+    width: 60%;
+    /* border: 2px solid teal; */
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.food_list
+{
+    width: 33%;
+    margin: auto;
+    text-align: center;
+}
+.img_container_food
+{
+    width: 70%;
+    /* border: 2px solid rebeccapurple; */
+    margin: auto;
+    margin-top: 20px;
+    /* padding: 40px; */
+    height: 197px;
+}
+.img_container_food>img
+{
+    width: 100%;
+    margin: auto;
+}
+.img_container_food+p
+{
+    font-size: 17px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 15px;
+}
+.food_list>:last-child
+{
+    font-size: 9px;
+    color: #333;
+    line-height: 12px;
+    margin-top: 5px;
+}
+#food_learnMore
+{
+border: none;
+background-color: #094fdb;
+padding: 5px 10px;
+color: #fff;
+font-size: 12px;
+text-align: center;
+}
+
+#food_content
+{
+    border: 2px solid orange;
+    width: 100%;
+    margin-top: 30px;
+}
+.food_content_box
+{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    border: 1px solid greenyellow;
+    margin-top: 25px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.food_content_img
+{
+    width: 50%;
+    border: 2px solid red;
+    margin: auto;
+}
+.food_content_img>img
+{
+    width: 100%;
+}
+#food_content_text
+{
+    width: 50%;
+    text-align: justify;
+    align-items: center;
+    padding-top: 30px;
+}
+#food_content_text>p:nth-child(1)
+{
+    font-size: 25px;
+}
