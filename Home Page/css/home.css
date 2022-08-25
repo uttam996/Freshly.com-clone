@@ -73,6 +73,14 @@ body {
     border:0px solid blue;
     display: flex;
 }
+.explore_meals{
+    transition: transform 1.2s;
+}
+.explore_meals:hover{
+    transform: translate(3px,-3px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+}
 #cooked,#hit_reset{
     width: 50%;
     height:700px;
@@ -181,6 +189,12 @@ input[type="text"]{
     font-family: sans-serif;
     font-weight: bold;
     color: #fffdf7;
+    cursor: pointer;
+    transition: transform 1.2s;
+}
+#hit_reset>button:hover{
+    transform: translate(3px,-3px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     cursor: pointer;
 }
 #how_it_works{
@@ -313,5 +327,10 @@ input[type="text"]{
     color: #fff;
     font-family: sans-serif;
     font-weight: bold;
+    transition: transform 1.2s;
+}
+#view_plans:hover{
+    transform: translate(3px,-3px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     cursor: pointer;
 }
