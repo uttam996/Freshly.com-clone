@@ -56,6 +56,8 @@ displayData(data)
 
 
 
+
+
 function displayCart(){
     let sum=0;
     let cart_cont=getEliment(".cart_cont")
