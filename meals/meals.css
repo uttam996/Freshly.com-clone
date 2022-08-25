@@ -10,6 +10,10 @@ body {
 
 .meals_main {
     display: flex;
+    position: relative;
+    opacity: 1;
+    
+
 
 }
 
@@ -19,7 +23,8 @@ body {
     display: grid;
     width: 70%;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;        
+    gap: 10px;  
+    opacity: 0.4;      
   
 }
 
@@ -114,6 +119,8 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     
+    
+    
 }
 
 
@@ -124,6 +131,7 @@ body {
 #cart_sidebar{
     width: 30%;
     height: 100vh;
+    opacity: 0.4;  
    
 }
 .cart_cont{
