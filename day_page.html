@@ -4,111 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freshly-Plan</title>
+    <title>Freshly-Day</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="navbar">
         <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" id="logo" alt="logo">
 
-        <div id="bullet">
+        
+  
+          <div id="bullet">
+  
+              <div id="plans" class="sml" ><a href="./plan_page.html"><b>Plans </b></a></div>
+              <div class="sml" style="color:black;"><b>></b></div>
+              <div id="days" class="sml" style="color:black;"><b>Day</b>  </div>
+              <div class="sml">></div>
+              <div id="Meals" class="sml">Meals  </div>
+              <div class="sml">></div>
+              <div id="checkout" class="sml">Checkout  </div>  
+            </div>
+          
+        
+         <div id="customer"><span></span><style>
+          /* Style The Dropdown Button */
+          .dropbtn {
+            background-color: white;
+            color:blue;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+          }
+          
+          /* The container <div> - needed to position the dropdown content */
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+          
+          /* Dropdown Content (Hidden by Default) */
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            /* min-width: 160px; */
+            
+            /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+            z-index: 1;
+          }
+          
+          /* Links inside the dropdown */
+          .dropdown-content a {
+            color:blue;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+          
+          /* Change color of dropdown links on hover */
+          .dropdown-content a:hover {background-color: #f1f1f1}
+          
+          /* Show the dropdown menu on hover */
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+          
+          /* Change the background color of the dropdown button when the dropdown content is shown */
+          .dropdown:hover .dropbtn {
+            background-color:white;
+          }
 
-            <div id="plans" class="sml" style="color:black ;"><b>Plans </b></div>
-            <div class="sml">></div>
-            <div id="days" class="sml">Day  </div>
-            <div class="sml">></div>
-            <div id="Meals" class="sml">Meals  </div>
-            <div class="sml">></div>
-            <div id="checkout" class="sml">Checkout  </div>  
-          </div>
-        
-          <div id="customer"><span></span><style>
-            /* Style The Dropdown Button */
-            .dropbtn {
-              background-color: white;
-              color:blue;
-              padding: 16px;
-              font-size: 16px;
-              border: none;
-              cursor: pointer;
-            }
-            
-            /* The container <div> - needed to position the dropdown content */
-            .dropdown {
-              position: relative;
-              display: inline-block;
-            }
-            
-            /* Dropdown Content (Hidden by Default) */
-            .dropdown-content {
-              display: none;
-              position: absolute;
-              background-color: #f9f9f9;
-              /* min-width: 160px; */
-              
-              /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-              z-index: 1;
-            }
-            
-            /* Links inside the dropdown */
-            .dropdown-content a {
-              color:blue;
-              padding: 12px 16px;
-              text-decoration: none;
-              display: block;
-            }
-            
-            /* Change color of dropdown links on hover */
-            .dropdown-content a:hover {background-color: #f1f1f1}
-            
-            /* Show the dropdown menu on hover */
-            .dropdown:hover .dropdown-content {
-              display: block;
-            }
-            
-            /* Change the background color of the dropdown button when the dropdown content is shown */
-            .dropdown:hover .dropbtn {
-              background-color:white;
-            }
-  
-            .dropdown-content button{
-              width: 200px;
-              height: 60px;
-              border:none;
-              color: blue;
-            }
-  
-            </style>
-            
-            <div class="dropdown">
-              <button class="dropbtn"><span><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none" fill-rule="evenodd" transform="translate(1 .144)"><circle cx="9.5" cy="10.356" r="9.5" stroke="currentColor" stroke-width="1.5"></circle><path d="M9.296 15.896a1.28 1.28 0 0 1-.86-.32c-.255-.221-.39-.54-.39-.919 0-.344.124-.64.366-.877.48-.47 1.284-.473 1.759.002.237.237.357.532.357.875 0 .38-.13.687-.383.913a1.25 1.25 0 0 1-.849.326m-.065-3.299c-.294 0-.556-.104-.76-.299-.21-.202-.317-.489-.317-.85 0-1.148.69-1.777 1.36-2.384.166-.153.335-.307.496-.472.324-.332.383-.727.158-1.057-.205-.299-.64-.505-1.151-.289-.437.186-.65.592-.895 1.063l-.056.106c-.212.402-.568.677-.93.718-.304.038-.589-.09-.812-.347a1.306 1.306 0 0 1-.3-.67C5.809 6.698 7.098 5.453 8.437 5.18c1.12-.23 2.345.033 3.188.685.501.389.853.92.988 1.498a2.22 2.22 0 0 1-.233 1.611c-.256.46-.643.83-1.018 1.188-.5.478-.972.928-1.082 1.533-.105.574-.488.903-1.049.903" fill="currentColor"></path></g></svg></span>Coustomer Support</button>
-              <div class="dropdown-content">
-                <a><button>Live Chat</button></a>
-                <a><button>support@freshly.com</button></a>
-                <a><button>1-844-373-7459</button></a>
-              </div>
-            </div></div> 
-        
-         
-          </div>
+          .dropdown-content button{
+            width: 200px;
+            height: 60px;
+            border :none;
+            color: blue;
+          }
+
+          </style>
+          
+          <div class="dropdown">
+            <button class="dropbtn"><span><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none" fill-rule="evenodd" transform="translate(1 .144)"><circle cx="9.5" cy="10.356" r="9.5" stroke="currentColor" stroke-width="1.5"></circle><path d="M9.296 15.896a1.28 1.28 0 0 1-.86-.32c-.255-.221-.39-.54-.39-.919 0-.344.124-.64.366-.877.48-.47 1.284-.473 1.759.002.237.237.357.532.357.875 0 .38-.13.687-.383.913a1.25 1.25 0 0 1-.849.326m-.065-3.299c-.294 0-.556-.104-.76-.299-.21-.202-.317-.489-.317-.85 0-1.148.69-1.777 1.36-2.384.166-.153.335-.307.496-.472.324-.332.383-.727.158-1.057-.205-.299-.64-.505-1.151-.289-.437.186-.65.592-.895 1.063l-.056.106c-.212.402-.568.677-.93.718-.304.038-.589-.09-.812-.347a1.306 1.306 0 0 1-.3-.67C5.809 6.698 7.098 5.453 8.437 5.18c1.12-.23 2.345.033 3.188.685.501.389.853.92.988 1.498a2.22 2.22 0 0 1-.233 1.611c-.256.46-.643.83-1.018 1.188-.5.478-.972.928-1.082 1.533-.105.574-.488.903-1.049.903" fill="currentColor"></path></g></svg></span>Coustomer Support</button>
+            <div class="dropdown-content">
+              <a><button>Live Chat</button></a>
+              <a><button>support@freshly.com</button></a>
+              <a><button>1-844-373-7459</button></a>
+            </div>
+          </div></div> 
 
     </div>
     <hr>
-    <div id="main">
-        <h1>Flexible plans that fit your life</h1>
-        <p>We offer anywhere from 4–12 meals per week, starting at $12.50 / meal. <b>The bigger your box, the more you’ll save —</b> and you can always pause, cancel, or change your plan at any time.</p>
 
-      <a href="./day_page.html"> <div id="meals_data" style="color:black" >
-            
-    </div></a>
-    <a href="./day_page.html">
-        <div id="meals_price" style="color:black">
+    <div id="mid_section">
 
-        </div></a>
+        
+      <h1>Choose A Delivery Day</h1>
+      
+      <div id="scroll">
+        <ul>
+          <li><b>Wednesday,</b> Aug 31</li>
+          <li><b>Thursday,</b> Sep 1</li>
+          <li><b>Friday,</b> Sep 2</li>
+          <li><b>Saturday,</b> Sep 3</li>
+          <li><b>Sunday,</b> Sep 4</li>
+          <li><b>Wednesday,</b> Sep 7</li>
+          <li><b>Thursday,</b> Sep 8</li>
+          <li><b>Friday,</b> Sep 9</li>
+          <li><b>Saturday,</b> Sep 10</li>
+          <li><b>Sunday, </b>Sep 11</li>
+          <li><b>Monday, </b>Sep 12</li>
 
-        <p id="para" style="margin-top:35px; color: rgb(89, 134, 134);" >Shipping and tax added at checkout</p>     
-        <a href="./day_page.html"><button id="btn"><b>Continue</b></button></a>
+        </ul>
+        
+      </div>
+
+      <a href="./meals/meals.html"><button id="btn_next"><b>Next</b></button></a>
+
+      <p style="font-size:13px ;"><b>First Delivery Date: Monday, Sep 12</b></p>
     </div>
+
+    <hr>
 
     <div id="common_que">
         <h1>Common Questions</h1>
@@ -131,7 +146,7 @@
         }
         
         .active, .collapsible:hover {
-          background-color:whitesmoke;
+          background-color: whitesmoke;
           color: rgb(49, 83, 156);
         }
         
@@ -153,7 +168,7 @@
         <button type="button" class="collapsible"><b>How many servings are your meals?</b></button>
         <div class="content">
           <p>The majority of our meals are single serving and meant to feed an average adult. We also offer multi-serve proteins and sides, which are designed to feed multiple people for extra mealtime flexibility. These delicious, ready-to-heat options can help you bulk up existing meals, simplify home cooking, or even build an entire meal—the choice is yours!
-            <br><br>
+          <br> <br>
             Our 6-meal plan is perfect for a person looking for 6 dinners (or lunches!) a week. On average, our meals weigh in at about 13 ounces and range from 300 to 650 calories. If you have a larger household, we do offer a 12 meal per week subscription (it’s perfect for couples or a family of 4 looking for 3 meals per week). Plus, you can always order multiple subscriptions.</p>
         </div>
         
@@ -200,7 +215,7 @@
         }
         </script>
     </div>
+
     
 </body>
 </html>
-<script src="./plan_page.js" type="module"></script>
