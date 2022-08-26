@@ -1,6 +1,10 @@
 
 import data from "./productData.js";
 
+let productCont=getEliment(".products")
+let CartCont=getEliment("#cart_sidebar")
+let MealsCont=getEliment(".meals_containesr")
+
 function create(el) {
     return document.createElement(el)
 }
@@ -8,7 +12,9 @@ function getEliment(el) {
     return document.querySelector(el)
 }
 let cont = getEliment(".products")
+
 const displayData = (data) => {
+    cont.innerText=""
     data.forEach((el) => {
         let div = create("div")
         let div_img = create("div")
@@ -22,6 +28,12 @@ const displayData = (data) => {
         div_img.id = "img_cont"
         btn.addEventListener("click", () => {
             Addtocart(el)
+        })
+        tittle.addEventListener("click",()=>{
+            MealsCont.style.display="block"
+            CartCont.style.opacity="0.1"
+            productCont.style.opacity="0.1"
+            detaislUpdate(el)
         })
 
         let price_div = create("div")
@@ -115,3 +127,57 @@ function displayCart(){
     getEliment(".saved>div>h4").innerText="Subtotal "+" $ "+sum
 }
 displayCart()
+
+
+
+getEliment(".cross").addEventListener("click",()=>{
+    MealsCont.style.display="none"
+    CartCont.style.opacity="1"
+    productCont.style.opacity="1"
+})
+
+const detaislUpdate = (el)=>{
+  getEliment(".meals_img>img").src=el.img
+  getEliment(".top_heading>h1").innerText=el.tittle
+}
+
+getEliment("#sort").addEventListener("click",()=>{
+    handaleSort()
+})
+let handaleSort =()=>{
+ 
+    let selesct = getEliment("#sort")
+    if(selesct.value=="htl"){
+        data.sort(function(a,b){
+             return b.price.split(" ")[1]-a.price.split(" ")[1]
+          
+        })
+        displayData(data)
+        
+    }
+    if(selesct.value=="lth"){
+        data.sort(function(a,b){
+             return a.price.split(" ")[1]-b.price.split(" ")[1]
+          
+        })
+        displayData(data)
+        
+    }
+  
+   
+}
+
+getEliment("#clear").addEventListener("click",()=>{
+    getEliment(".cart_cont").innerText="";
+    localStorage.setItem("mealsCart", JSON.stringify([]))
+    displayCart()
+    
+})
+
+getEliment("#next").addEventListener("click",()=>{
+    let price=getEliment("#price_cart").innerText
+    price.split(" ")[3]
+    localStorage.setItem("cartPrice",JSON.stringify("price"))
+    window.location.href="checkout.html"
+})
+

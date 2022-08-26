@@ -11,17 +11,66 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel='stylesheet' href="./meals.css">
     <link rel='stylesheet' href="./details.css">
+    <style>
+        .products_main>div:nth-child(1){
+            display: flex;
+            height: 70px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 10px;
+            border-bottom: 1px solid gray;
+            width: 100%;
+        }
+        .products_main>div:nth-child(2){
+            display: flex;
+            height: 50px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 10px;
+            border-bottom: 1px solid gray;
+            width: 100%;
+        }
+       
+        .products_main{
+            width: 70%;
+        }
+    </style>
 
 </head>
 
 <body>
     <div class="meals_main">
-        <div class="products">
+        <div class="products_main">
+            <div>
+                <a href="/">back</a>
+                <p>Delhivary : <select>
+                    <option>SaturDay, sep 2</option>
+                    <option>Sunday, sep 3</option>
+                    <option>Monday, sep 4</option>
+                </select>
+            </p>
+                <a href="/">Costomer Support</a>
+            </div>
+            <div>
+                <h3>Choose Meals</h3>
+                <p>
+
+              Sort 
+            <select id="sort"  >
+                <option value="">Deafault</option>
+                <option value="htl">High to Low</option>
+                <option value="lth">Low to High</option>
+            </select>
+        </p>
+        </div>
+            <div class="products">
+
+            </div>
         </div>
         <div id="cart_sidebar">
             <div class="delhivary">
                 <p>My delhivary for : <b>Friday, sep 2</b></p>
-                <p>clear all</p>
+                <p id="clear" >clear all</p>
             </div>
             <div class="cart_cont">
                
@@ -31,7 +80,7 @@
                 <div class="saved">
                     <div>
                         <h3>You saved 7%</h2>
-                        <h4>Subtotal  70%</h4>
+                        <h4 id="price_cart">Subtotal  70%</h4>
                        
 
                     </div>
@@ -51,8 +100,11 @@
                 <p><i>With Masterful Mac & Cheese</i></p>
                 <div class="nutri">
                     <div>High protein</div>
-                    <div>High protein</div>
-                    <div>High protein</div>
+                    <div>Gulten free</div>
+                    <div>Fresh meat</div>
+                </div>
+                <div class="cross">
+                    <i class="fa-solid fa-xmark"></i>
                 </div>
             </div>
             <div class="scroll">
@@ -96,8 +148,18 @@
                         </div>
                         <div>
                             <img
-                                src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319db6548088da9_production-image-7c712299-a728-48ad-bf50-3a87133b24b4.jpeg">
-                            <p>Green Beans</p>
+                                src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319db565e088daa_production-image-ddc396f0-87d5-4588-91d3-bb4ce8e8c6d0.jpeg">
+                            <p> Cheese</p>
+                        </div>
+                        <div>
+                            <img
+                                src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063ffd26c6eb8df9d72394_production-image-52178431-8646-4502-9758-c29fec0a09ae.jpeg">
+                            <p>souace</p>
+                        </div>
+                        <div>
+                            <img
+                                src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063ff66931cb129dbd4c56_production-image-b5eeaeaa-981c-4b81-b581-e1f30dabd4d9.jpeg">
+                            <p>sauce</p>
                         </div>
                         <div>
                             <img
@@ -106,18 +168,8 @@
                         </div>
                         <div>
                             <img
-                                src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319db6548088da9_production-image-7c712299-a728-48ad-bf50-3a87133b24b4.jpeg">
-                            <p>Green Beans</p>
-                        </div>
-                        <div>
-                            <img
-                                src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319db6548088da9_production-image-7c712299-a728-48ad-bf50-3a87133b24b4.jpeg">
-                            <p>Green Beans</p>
-                        </div>
-                        <div>
-                            <img
-                                src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319db6548088da9_production-image-7c712299-a728-48ad-bf50-3a87133b24b4.jpeg">
-                            <p>Green Beans</p>
+                                src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063ffd26c6eb4653d723d8_production-image-d284663f-b214-4d9f-904b-8189dc81a6d7.jpeg">
+                            <p>Tomato</p>
                         </div>
     
     
