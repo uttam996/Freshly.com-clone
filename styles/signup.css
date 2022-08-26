@@ -28,8 +28,8 @@ svg {
     border-bottom-style: solid;
     border-bottom-color: rgb(237, 237, 237);
     margin: auto;
-    /* position: sticky;
-    top: 0; */
+    position: sticky;
+    top: 0;
 
 }
 
@@ -57,20 +57,26 @@ i {
     align-items: center;
 }
 
-#signup {
-    background: hsla(0, 0%, 100%, .8);
-    margin: auto;
-    position: absolute;
-    top: 230px;
-    left: 23%;
+#banner {
     padding: 30px 70px;
+    background-image: url("https://res.cloudinary.com/freshly/image/upload/c_crop,g_auto,dpr_auto,q_30,w_1500,h_900/v1494958610/joinnow-southchicken.jpg");
+
+    background-size: cover;
+    /* border: 1px solid red; */
+    height: 600px;
+
 }
 
-#banner img {
-    display: block;
-    height: 600px;
-    width: 100%;
-    position: relative;
+#signup {
+    background-color: hsla(0, 0%, 100%, .8);
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    /* padding: 50px 100px; */
+    margin: auto;
+    margin-top: 10%;
+    width: 60%;
+
 }
 
 #list {
@@ -92,48 +98,47 @@ i {
     /* padding: 10px 60px; */
     width: 40%;
     padding: 8px 0px;
-
 }
 
 #signup input[type="email"] {
     text-align: left;
     font-size: larger;
-
 }
 
 #signup input[type="number"] {
     text-align: left;
     font-size: larger;
     margin-right: 5px;
-
-
 }
 
 #signup #Zip {
     margin-left: 10px;
-    width: 30%;
+    width: 15%;
     padding: 8px 0px;
-
 }
 
 #signup #btn {
-
     font-weight: 500px;
     color: #fff;
     background-color: #2a6dff;
     border-color: #2a6dff;
-    padding: 8px 1rem;
+    padding: 8px;
     font-size: 1.1rem;
     line-height: 1.2;
+    width: 15%;
+}
+
+#signup #btn:hover {
+    transform: translate(3px, -3px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+
 }
 
 * {
     font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-#btn {
-    width: 20%;
-}
 
 #signup p {
     margin-top: 30px;
@@ -154,6 +159,7 @@ i {
 .contentBx {
     width: 80%;
     margin: auto;
+
 }
 
 .title {
@@ -166,10 +172,12 @@ i {
     font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 700;
     position: relative;
+
 }
 
 .title:hover {
     color: #2a6dff;
+
 }
 
 .title::after {
@@ -177,6 +185,7 @@ i {
     float: right;
     transform: scale(2);
     color: #2a6dff;
+
 }
 
 
@@ -184,19 +193,20 @@ i {
     display: block;
     max-height: 200px;
     transition-delay: 1ms;
-
+    transition: all 0.5s ease-in-out;
     /* overflow-y: scroll; */
 }
 
 
 .title--active {
-    transition: 0.5sec;
+    /* transition: 0.5sec; */
     color: #2a6dff;
+
 }
 
 .title--active::after {
     content: "\25b4";
-
+    transition: all 0.5s;
 }
 
 .content p {
@@ -206,13 +216,11 @@ i {
     font-weight: 520;
     line-height: 25px;
     color: #303030;
-
 }
 
 .content {
     /* overflow: hidden;
-   
-    transition: max-height 0.2s; */
+       transition: max-height 0.2s; */
     display: none;
     padding: 10px;
     overflow: auto;
