@@ -9,6 +9,7 @@ let display = (data1) => {
 
         let h4 = document.createElement("h4");
         h4.innerText=ele.flexibleplan;
+        
 
         let h5= document.createElement("h5");
         h5.innerText=ele.mt1;
@@ -33,8 +34,9 @@ let display1 = (data1) => {
 
         let h5= document.createElement("h5");
         h5.innerText=ele.fontweight1;
+        h5.setAttribute("id","line");
 
-        div.append(h4,h5);
+        div.append(h5,h4);
 
         document.querySelector("#meals_price").append(div);
     })
