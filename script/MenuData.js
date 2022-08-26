@@ -58,6 +58,24 @@ let Menudata = [
     Nutritions: "410 Cal | Gluten Free | Single-Serve",
     price: "$ 41",
     catagory: "FreshlyFit",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with Masterful Mac & Cheese",
+    meallabel1: "High Protein",
+    meallabel2: "Soy Free",
+    meallabel3: "Gluten Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8686c6705f190e7d43_production-meal-image-03fedc66-e34e-451c-a935-514e3602cbb2.jpeg",
+    dishspecial1:
+      "Greaseless oven-fried chicken breast, hand-breaded' with a gluten-free almond flourÂbatter",
+    dishspecial2:
+      "Our Masterful Mac is made with gluten-free brown-rice macaroni and a cheesy sauce thickened with butternutÂ squash",
+    ingredientname1: "Butternut Squash",
+    ingredientname2: "Cassava Flour",
+    ingredientname2__1: "Elbow Macaroni",
+    ingredientname3: "Green Beans",
+    ingredientname4: "Chicken Breast",
+    ingredientname5: "Almonds",
   },
   {
     Image:
@@ -151,7 +169,7 @@ let Menudata = [
     subrecipename: "with SautÃ©ed Zucchini & Spinach",
     meallabel1: "Gluten Free",
     meallabel2: "Soy Free",
-    meallabel3: "",
+    meallabel3: "Dairy Free",
     modalimg:
       "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
     dishspecial1:
@@ -171,6 +189,23 @@ let Menudata = [
     Nutritions: "360 Cal | Gluten Free | Single-Serve",
     price: "$ 35",
     catagory: "FreshlyFit",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -179,6 +214,23 @@ let Menudata = [
     Nutritions: "420 Cal | Gluten Free | Single-Serve",
     price: "$ 46",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -187,6 +239,23 @@ let Menudata = [
     Nutritions: "510 Cal | Gluten Free | Single-Serve",
     price: "$ 26",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -195,6 +264,23 @@ let Menudata = [
     Nutritions: "470 Cal | Gluten Free | Single-Serve",
     price: "$ 28",
     catagory: "FreshlyFit",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -203,6 +289,23 @@ let Menudata = [
     Nutritions: "470 Cal | Gluten Free | Single-Serve",
     price: "$ 21",
     catagory: "FreshlyFit",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -211,6 +314,23 @@ let Menudata = [
     Nutritions: "380 Cal | Gluten Free | Single-Serve",
     price: "$ 14",
     catagory: "FreshlyFit",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -219,6 +339,23 @@ let Menudata = [
     Nutritions: "510 Cal | Gluten Free | Single-Serve",
     price: "$ 16",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -227,6 +364,23 @@ let Menudata = [
     Nutritions: "410 Cal | Gluten Free | Single-Serve",
     price: "$ 34",
     catagory: "FreshlyFit",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -235,6 +389,23 @@ let Menudata = [
     Nutritions: "430 Cal | Has Gluten | Single-Serve",
     price: "$ 23",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -243,6 +414,23 @@ let Menudata = [
     Nutritions: "350 Cal | Gluten Free | Single-Serve",
     price: "$ 11",
     catagory: "FreshlyFit",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -251,6 +439,23 @@ let Menudata = [
     Nutritions: "570 Cal | Gluten Free | Single-Serve",
     price: "$ 49",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -259,6 +464,23 @@ let Menudata = [
     Nutritions: "450 Cal | Gluten Free | Single-Serve",
     price: "$ 42",
     catagory: "FreshlyFit",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -267,6 +489,23 @@ let Menudata = [
     Nutritions: "160 Cal | Gluten Free | Multi-Serve",
     price: "$ 44",
     catagory: "protiens",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -274,6 +513,23 @@ let Menudata = [
     Title: "Roasted Tomato & Parmesan Risotto",
     Nutritions: "490 Cal | Gluten Free | Single-Serve",
     price: "$ 24",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -282,6 +538,23 @@ let Menudata = [
     Nutritions: "110 Cal | Gluten Free | Multi-Serve",
     price: "$ 13",
     catagory: "protiens",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -290,6 +563,23 @@ let Menudata = [
     Nutritions: "400 Cal | Has Gluten | Single-Serve",
     price: "$ 37",
     catagory: "purelyplanet",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -298,6 +588,23 @@ let Menudata = [
     Nutritions: "640 Cal | Gluten Free | Single-Serve",
     price: "$ 39",
     catagory: "purelyplanet",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -306,6 +613,23 @@ let Menudata = [
     Nutritions: "520 Cal | Gluten Free | Single-Serve",
     price: "$ 19",
     catagory: "purelyplanet",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -314,6 +638,23 @@ let Menudata = [
     Nutritions: "550 Cal | Gluten Free | Single-Serve",
     price: "$ 24",
     catagory: "FreshlyFit",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -321,6 +662,23 @@ let Menudata = [
     Title: "Dijon Pork Chop",
     Nutritions: "630 Cal | Gluten Free | Single-Serve",
     price: "$ 11",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -329,6 +687,23 @@ let Menudata = [
     Nutritions: "650 Cal | Gluten Free | Single-Serve",
     price: "$ 30",
     catagory: "purelyplanet",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -337,6 +712,23 @@ let Menudata = [
     Nutritions: "630 Cal | Gluten Free | Single-Serve",
     price: "$ 26",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -345,6 +737,23 @@ let Menudata = [
     Nutritions: "610 Cal | Gluten Free | Single-Serve",
     price: "$ 46",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -353,6 +762,23 @@ let Menudata = [
     Nutritions: "630 Cal | Gluten Free | Single-Serve",
     price: "$ 20",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -361,6 +787,23 @@ let Menudata = [
     Nutritions: "710 Cal | Gluten Free | Single-Serve",
     price: "$ 38",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -369,6 +812,23 @@ let Menudata = [
     Nutritions: "570 Cal | Gluten Free | Single-Serve",
     price: "$ 48",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -377,6 +837,23 @@ let Menudata = [
     Nutritions: "390 Cal | Gluten Free | Single-Serve",
     price: "$ 14",
     catagory: "purelyplanet",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -385,6 +862,23 @@ let Menudata = [
     Nutritions: "550 Cal | Gluten Free | Single-Serve",
     price: "$ 23",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -393,6 +887,23 @@ let Menudata = [
     Nutritions: "480 Cal | Gluten Free | Single-Serve",
     price: "$ 50",
     catagory: "purelyplanet",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -401,6 +912,23 @@ let Menudata = [
     Nutritions: "610 Cal | Gluten Free | Single-Serve",
     price: "$ 21",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -409,6 +937,23 @@ let Menudata = [
     Nutritions: "360 Cal | Has Gluten | Single-Serve",
     price: "$ 12",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -417,6 +962,23 @@ let Menudata = [
     Nutritions: "430 Cal | Has Gluten | Single-Serve",
     price: "$ 45",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -425,6 +987,23 @@ let Menudata = [
     Nutritions: "570 Cal | Gluten Free | Single-Serve",
     price: "$ 46",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -433,6 +1012,23 @@ let Menudata = [
     Nutritions: "500 Cal | Gluten Free | Single-Serve",
     price: "$ 34",
     catagory: "Significant",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
   {
     Image:
@@ -441,6 +1037,23 @@ let Menudata = [
     Nutritions: "620 Cal | Gluten Free | Single-Serve",
     price: "$ 15",
     catagory: "purelyplanet",
+    mealcardsingle: "Single-Serve",
+    mealcardmulti: "Multi-Serve",
+    subrecipename: "with SautÃ©ed Zucchini & Spinach",
+    meallabel1: "Gluten Free",
+    meallabel2: "Soy Free",
+    meallabel3: "Dairy Free",
+    modalimg:
+      "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65256cd159c7_production-meal-image-0963d196-5110-4dc7-888a-8121e5b91142.jpeg",
+    dishspecial1:
+      "Pasta night gets an upgrade with gluten-free brown-rice pasta and our Masterful Marinara, packed with 5 sneaky veggies and a touch ofÂ honey",
+    dishspecial2: "Nitrate- and nitrite-free pork sausage with ItalianÂ spices",
+    ingredientname1: "Italian Sausage",
+    ingredientname2: "Spinach",
+    ingredientname2__1: "Zucchini",
+    ingredientname3: "Penne",
+    ingredientname4: "Tomatoes",
+    ingredientname5: "Marinara Sauce",
   },
 ];
 
