@@ -328,27 +328,63 @@
 #dome {
     width: 100%;
     position: relative;
-    background-color: #3167ff;
+    /* background-color: #3167ff; */
 
 }
 
 #inside {
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin: auto;
+
 }
 
 #inside>div {
     width: 48%;
-    border: 1px solid green;
+    padding: 10px;
+    /* border: 1px solid green; */
 
 }
 
 #insideimg {
     width: 80%;
     gap: 20px;
+    display: flex;
+    flex-direction: column;
+
 }
 
-#insidetext p {
+#insideimg img {
+    width: 100%;
+}
+
+#insidetext {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(24, 61, 164);
+
+}
+
+#sub1 p {
     width: 80%;
+    margin: auto;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+#sub2 h1,
+#sub1 h1 {
+    text-align: center;
+}
+
+#sub2list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+
+#sub2list img {
+    width: 100%;
 }
