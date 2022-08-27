@@ -4,75 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Checkout</title>
     <link rel="stylesheet" href="./css/checkout.css">
 </head>
 <body>
-    <div id="checkout-order">
-        <div class="checkout-order">
-            <h1 class="checkout">Checkout</h1>
-            <h1 class="Order_Summery">Order Summary</h1>
+    <div class="checkout_container">
+        <div class="Delhivary_summary">
+            <form>
+                <h3>Delhivary summary</h3>
+                <div class="name">
+                    <div>
+                        <label for="firstName">First name</label>      
+                        <input  id="firstName" type="text">
+                    </div>
+                    <div>
+                        <label for="LastName">Last name</label>
+                    <input id="LastName"  type="text">
+                    </div>
+                
+                </div>
+                <label for="Full_name">Full name for Delhivary</label>      
+                <input  id="Full_name" type="text">
+                <br>
+            
+                <br>
+                <label for="Address_Line_1">Address Line 1</label>      
+                <input  id="Address_Line_1" type="text">
+                <br>
+                <br>
+                <label for="Address_Line_2">Address Line 2 (optional)</label>      
+                <input  id="Address_Line_2" type="text">
+                <br>
+                <br>
+                <div class="city">
+                    <div>
+                        <label for="City">City</label>      
+                        <input  id="City" type="text">
+                    </div>
+                    <div>
+                        <label for="State">State</label>
+                    <input id="State"  type="text">
+                    </div>
+                    <div>
+                        <label for="Zip">Zip</label>
+                    <input id="Zip"  type="number">
+                    </div>
+                
+                </div>
+                <br>
+                <br>
+
+                <label for="Phone">Phone</label>      
+                <input  id="Phone" type="text">
+                <br>
+                <br>
+                <label for="Email">Email</label>      
+                <input  id="Email" type="text">
+                <br>
+                <br>
+              
+                <hr>
+                <div class="price">
+                    <p>Total</p>
+                    <p>50$</p>
+                </div>
+                
+                <button class="next" onclick="next()" >Next</button>
+                
+            </form>
+
+
+            
+
+         
+
         </div>
-        <div class="container_form_order">
-            <div class="delivery_address">
-                <h4>Delivery Address</h4>
-                <form action="" id="form_delivery">
-                    <div class="container_name">
-                        <div>
-                            <p>First Name</p>
-                            <input type="text" class="label fname" name="fname"><br>
-                        </div>
-                        <div>
-                            <p>Last Name</p>
-                            <input type="text" class="label lname" name="fname"><br>
-                        </div>
-                    </div>
-                    <p>Full Name for Delivery Address</p>
-                    <input type="text" class="label address">
-                    <p>Address Line 1</p>
-                    <input type="text" class="label line">
-                    <p>Address Line 2&nbsp; (optional)</p>
-                    <input type="text" class="label line">
-                    <div class="container_three">
-                        <div>
-                            <p>City</p>
-                            <input type="text" class="label city">
-                        </div>
-                        <div>
-                            <p>State</p>
-                            <select name="" id="state">
-                                <option value=""></option>
-                                <option value="AL">AL</option>
-                                <option value="AK">AK</option>
-                                <option value="AZ">AZ</option>
-                                <option value="AR">AR</option>
-                                <option value="CA">CA</option>
-                                <option value="CO">CO</option>
-                                <option value="CT">CT</option>
-                                <option value="DE">DE</option>
-                                <option value="DC">DC</option>
-                                <option value="FL">FL</option>
-                                <option value="GA">GA</option>
-                                <option value="HI">HI</option>
-                                <option value="ID">ID</option>
-                                <option value="IL">IL</option>
-                                <option value="IN">IN</option>
-                                <option value="IA">IA</option>
-                                <option value="KS">KS</option>
-                                <option value="KY">KY</option>
-                                <option value="LA">LA</option>
-                                <option value="ME">ME</option>
-                            </select>
-                        </div>
-                        <div>
-                            <p>ZIP</p>
-                            <input type="text" class="label zip">
-                        </div>
-                    </div>
-                </form>
+        <div class="order_summary">
+            <h3>Order Summary</h3>
+            <p>Delhivary Date<select>
+                <option>Thrusday, September 1</option>
+                <option>Friday, September 2</option>
+                <option>Staurday, September 3</option>
+                <option>Sunday, September 4</option>
+            </select></p>
+            <div class="meals">
+                <p><span class="size"></span> meals</p>
+                <p>50$</p>
             </div>
-            <div class="promo"></div>
+            <div class="meals_discount">
+                <p><span class="size"></span> meals discount</p>
+                <p>50$</p>
+            </div>
+            <div class="subtotal">
+                <p>Subtotal</p>
+                <p>50$</p>
+            </div>
+            <div class="Shipping">
+                <p>shipping</p>
+                <p>50$</p>
+            </div>
+            <div class="total">
+                <p>Total</p>
+                <p>50$</p>
+            </div>
         </div>
+
     </div>
 </body>
 </html>
+<script src="./checkout.js"></script>
