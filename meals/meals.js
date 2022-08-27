@@ -178,6 +178,6 @@ getEliment("#next").addEventListener("click",()=>{
     let price=getEliment("#price_cart").innerText
     price.split(" ")[3]
     localStorage.setItem("cartPrice",JSON.stringify("price"))
-    window.location.href="checkout.html"
+    window.location.href="../Checkout Page/checkout.html"
 })
 
