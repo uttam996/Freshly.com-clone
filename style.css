@@ -83,7 +83,25 @@
     border: 1px solid rgb(236, 234, 234);
     padding: 10px;
 }
-#line{text-decoration: line-through; color: grey;}
+
+#main #meals_data .inner_div:nth-child(3){
+    background-color: rgb(182, 250, 227);
+}
+
+#main #meals_data .inner_div h5{
+    color: rgb(57, 124, 102);
+    text-decoration:underline;
+}
+
+#main #meals_price .inner_div:nth-child(3){
+    background-color:rgb(182, 250, 227);
+}
+#main #meals_price .inner_div h4{
+    color: rgb(57, 124, 102);
+    text-decoration:underline;
+}
+
+#line{text-decoration: line-through; color: rgb(204, 197, 197); text-decoration:underline;}
 #btn{
     background-color: rgb(43, 136, 243);
     margin-top: 20px;
