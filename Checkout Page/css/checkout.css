@@ -104,7 +104,7 @@ body{
 .total{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(235, 105, 105);
+    background-color: rgb(240, 101, 101);
     padding: 0px 5px;
     text-transform: uppercase;
     font-weight: 600;
