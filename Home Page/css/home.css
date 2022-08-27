@@ -481,7 +481,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 2px;
 }
 
-.get_started>div>button{
+.get_started>div>a>button{
     margin-top: 40px;
     background-color: #3167ff;
     padding: 13px 16px 12px;
@@ -494,8 +494,9 @@ body {
     margin-top: 20px;
     transition: transform 1.2s;
     width: 60%;
+    margin-bottom: 10px;
 }
-.get_started>div>button:hover{
+.get_started>div>a>button:hover{
     transform: translate(3px,-3px);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     cursor: pointer;
