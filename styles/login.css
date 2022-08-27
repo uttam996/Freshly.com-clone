@@ -105,6 +105,12 @@ svg {
 
 }
 
+#useremail:focus,
+#userpassword:focus,
+#username:focus {
+    outline: 0.5px solid #3167ff;
+}
+
 ::placeholder {
     font-size: medium;
     padding: 15px;

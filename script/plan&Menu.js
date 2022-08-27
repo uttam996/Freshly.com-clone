@@ -227,16 +227,17 @@ if (username !== null) {
   let det = document.querySelector(".login");
   det.style.color = "blue";
   // det.style.backgroundColor = "blue";
-  det.style.padding = "8px 5px";
+  // det.style.padding = "8px 5px";
   det.innerText = username.name;
-  logout.style.color = "blue";
+  // logout.style.color = "blue";
   logout.innerText = "Logout";
   logout.setAttribute("class", "logout");
 }
 let cameout = document.querySelector(".logout");
-cameout.style.backgroundColor = " #3167ff";
-cameout.style.color = "#fff";
-cameout.style.padding = "6px";
+// cameout.style.backgroundColor = " #3167ff";
+// cameout.style.color = "#fff";
+// cameout.style.padding = "6px";
+// cameout.style.marginright = "30px";
 
 cameout.addEventListener("click", function () {
   localStorage.setItem("Login_details", JSON.stringify(null));
