@@ -220,3 +220,22 @@ function closefunc() {
   PREVIEW.innerHTML = null;
   window.location.reload();
 }
+
+let username = JSON.parse(localStorage.getItem("Login_details")) || [];
+login(username);
+function login(username) {
+  if (username.name != "") {
+    let det = document.querySelector(".login");
+    det.style.color = "#fff";
+    det.style.backgroundColor = "blue";
+    det.style.padding = "3px";
+    det.innerText = username.name;
+    let logout = document.querySelector(".signup");
+    logout.style.color = "blue";
+
+    logout.innerHTML = "Logout";
+  } else {
+    document.querySelector(".login").innerText = "Login";
+    document.querySelector(".signup").innerText = "Signup";
+  }
+}
