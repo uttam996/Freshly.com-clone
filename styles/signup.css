@@ -12,9 +12,6 @@ svg {
     vertical-align: middle;
 }
 
-
-
-
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -58,24 +55,31 @@ i {
 }
 
 #banner {
-    padding: 30px 70px;
+    width: 100%;
     background-image: url("https://res.cloudinary.com/freshly/image/upload/c_crop,g_auto,dpr_auto,q_30,w_1500,h_900/v1494958610/joinnow-southchicken.jpg");
-
+    overflow: hidden;
     background-size: cover;
     /* border: 1px solid red; */
-    height: 600px;
+    height: 800px;
+    background-position: 50% 50%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
 
 }
 
 #signup {
     background-color: hsla(0, 0%, 100%, .8);
-    padding-left: 100px;
-    padding-top: 50px;
-    padding-bottom: 60px;
+    /* padding-left: 100px;
+    padding-top: 50px; */
+    /* padding-bottom: 60px; */
     /* padding: 50px 100px; */
+    justify-content: center;
     margin: auto;
-    margin-top: 10%;
-    width: 60%;
+    margin-top: 200px;
+    width: 700px;
+    height: 355px;
+    padding: 20px 20px;
 
 }
 
@@ -85,19 +89,39 @@ i {
 }
 
 #signup h1 {
-    font-size: 48px;
+    margin-left: 30px;
     font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #303030;
+    text-align: left;
+    padding-top: 30px;
 }
 
 #signup h2 {
+    margin-left: 30px;
+    font-size: 1.875rem;
     font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-weight: 500px;
+    font-weight: 600;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    color: #303030;
+    text-align: left;
 }
 
 #signup #email {
     /* padding: 10px 60px; */
-    width: 40%;
-    padding: 8px 0px;
+    border: 1px solid #717171;
+    height: 30px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-right: 5px;
+    margin-left: 30px;
+    width: 200px;
+
 }
 
 #signup input[type="email"] {
@@ -112,20 +136,34 @@ i {
 }
 
 #signup #Zip {
-    margin-left: 10px;
-    width: 15%;
-    padding: 8px 0px;
+    border: 1px solid #717171;
+    height: 30px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 200px;
 }
 
 #signup #btn {
-    font-weight: 500px;
-    color: #fff;
-    background-color: #2a6dff;
-    border-color: #2a6dff;
-    padding: 8px;
-    font-size: 1.1rem;
-    line-height: 1.2;
-    width: 15%;
+    background-color: #3167ff;
+    border: #3167ff;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 50px;
+    width: 130px;
+    /* text-transform: none; */
+    justify-content: center;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#Zip:focus,
+#email:focus {
+    outline: 0.5px solid #3167ff;
 }
 
 #signup #btn:hover {
@@ -144,6 +182,7 @@ i {
     margin-top: 30px;
     font-size: 15px;
     line-height: 30px;
+    padding: 10px;
 
 }
 
@@ -230,7 +269,7 @@ i {
 
 #accordion {
     position: absolute;
-    width: 90%;
+    width: 100%;
 }
 
 #showdata {
