@@ -221,21 +221,24 @@ function closefunc() {
   window.location.reload();
 }
 
-let username = JSON.parse(localStorage.getItem("Login_details")) || [];
-login(username);
-function login(username) {
-  if (username.name != "") {
-    let det = document.querySelector(".login");
-    det.style.color = "#fff";
-    det.style.backgroundColor = "blue";
-    det.style.padding = "3px";
-    det.innerText = username.name;
-    let logout = document.querySelector(".signup");
-    logout.style.color = "blue";
-
-    logout.innerHTML = "Logout";
-  } else {
-    document.querySelector(".login").innerText = "Login";
-    document.querySelector(".signup").innerText = "Signup";
-  }
+let username = JSON.parse(localStorage.getItem("Login_details"));
+let logout = document.querySelector(".signup");
+if (username !== null) {
+  let det = document.querySelector(".login");
+  det.style.color = "blue";
+  // det.style.backgroundColor = "blue";
+  det.style.padding = "8px 5px";
+  det.innerText = username.name;
+  logout.style.color = "blue";
+  logout.innerText = "Logout";
+  logout.setAttribute("class", "logout");
 }
+let cameout = document.querySelector(".logout");
+cameout.style.backgroundColor = " #3167ff";
+cameout.style.color = "#fff";
+cameout.style.padding = "6px";
+
+cameout.addEventListener("click", function () {
+  localStorage.setItem("Login_details", JSON.stringify(null));
+  window.location.href = "login.html";
+});

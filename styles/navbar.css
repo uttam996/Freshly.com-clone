@@ -88,7 +88,7 @@ body {
     margin: auto;
 }
 
-.signup>button {
+.signup>.logout {
     border: 0px solid red;
     background-color: #3167ff;
     font-family: sans-serif;
@@ -99,7 +99,7 @@ body {
     transition: all 0.5s;
 }
 
-.signup>button:hover {
+.signup>.logout:hover {
     transform: translateY(-4px);
 }
 
