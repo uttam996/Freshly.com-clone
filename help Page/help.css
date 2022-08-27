@@ -19,10 +19,11 @@
 #header
 {
     display: flex;
-    width: 80%;
+    width: 70%;
     margin: auto;
     justify-content: space-between;
     /* border: 1px solid red; */
+    height: 80px;
 }
 #headdr_logo
 {
@@ -31,8 +32,8 @@
     align-items: center;
 }
 #headdr_logo>img{
-    width: 80px;
-    max-height: 37px;
+    width: 100%;
+    max-height:55px;
 
 }
 #header_text
@@ -40,12 +41,12 @@
     display: flex;
     justify-content: space-between;
     /* border: 1px solid rebeccapurple; */
-    width: 180px;
+    width: 240px;
     /* margin: auto; */
 }
 #header_text>p
 {
-    font-size: 12px;
+    font-size: 16px;
     margin: auto;
 }
 #header_text>p>a
@@ -70,7 +71,7 @@
 /* right: 0; */
 width: 100%;
 left: 0;
-height: 190px;
+height: 286px;
 background: url(https://theme.zdassets.com/theme_assets/1612443/d214b970a5c2a51ac648138ebda4c206924c9dd7.jpg);
 /* background-position: center; */
 background-size:contain;
@@ -85,9 +86,9 @@ align-items: center;
 
 #search_container>input
 {
-    width: 400px;
+    width: 600px;
     border-radius: 20px;
-    padding: 5px;
+    padding: 10px;
     border: none;
     /* margin-left: 5px; */
 }
@@ -115,7 +116,7 @@ margin-bottom: 30px;
     width: 80%;
     margin: auto;
     /* border: 1px solid green; */
-    gap: 20px;
+    gap: 30px;
     margin-top: 10px;
 }
 .containe_box
@@ -124,11 +125,11 @@ margin-bottom: 30px;
     text-align: center;
     padding: 15px;
     /* display: flex; */
-    width: 250px;
+    width: 364px;
     margin: auto;
     border-radius: 2px;
     color: rgba(3, 81, 78, 1);
-    font-size: 12px;
+    font-size: 16px;
 
 }
 .containe_box:hover
@@ -140,13 +141,13 @@ margin-bottom: 30px;
 #mid_container>:last-child
 {
     grid-column: auto / span 3;
-    width: 100%;
+    width: 98%;
 }
 
 .articles
 {
     /* border: 1px solid tomato; */
-    width: 80%;
+    width: 79%;
     margin: auto;
     margin-bottom: 30px;
 }
@@ -200,7 +201,7 @@ ul {
     /* text-align: center; */
     padding: 15px;
     /* display: flex; */
-    width: 250px;
+    width: 382px;
     margin: auto;
     /* border-radius: 2px; */
     color: rgba(3, 81, 78, 1);
@@ -210,7 +211,7 @@ ul {
 {
     text-decoration: none;
     color: #333;
-    font-size: 12px;
+    font-size: 16px;
 }
 .promoted-articles-item>a:hover
 {
@@ -223,9 +224,10 @@ ul{
 }
 #hr
 {
-    width: 80%;
+    width: 79%;
     margin: auto;
     margin-bottom: 30px;
+    margin-top: 70px;
     border-bottom:0.5px solid gray;
 }
 
@@ -248,5 +250,5 @@ ul{
 }
 #bottom_inner>p
 {
- font-size: 12px;
+ font-size: 16px;
 }
