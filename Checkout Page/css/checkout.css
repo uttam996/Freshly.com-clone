@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #fffdf7;
+    width: 100%;
+    height: 800px;
+    border: 2px solid red;
+    margin-top: 80px;
+}
+.checkout-order{
+    display: flex;
+    
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+}
+.checkout-order>h1{
+    font-family: sans-serif;
+    color: #303030;
+    font-size: 25px;
+}
+.Order_Summery{
+    margin-left: 550px;
+}
+.container_form_order{
+    width: 80%;
+    height: 680px;
+    margin: auto;
+    border: 2px solid blue;
+}
+.delivery_address{
+    background-color: #fff;
+    width: 60%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.delivery_address>h4{
+    font-family: sans-serif;
+    color: #303030;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 50px;
+}
+.container_name,.container_three{
+    display: flex;
+}
+.container_name>div+div{
+    margin-left: 40px;
+}
+#form_delivery{
+    border: 1px solid red;
+    width: 84%;
+    margin: auto;
+}
+form p{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: #303030;
+    font-weight: bold;
+    font-size: 13px;
+    opacity: 0.7;
+}
+.label{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.label:focus{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    outline: 1px solid white ;
+}
+.fname{
+    width: 100%;
+}
+.lname{
+    width: 120%;
+}
+.address,.line{
+    width: 87%;
+}
+#state{
+    width: 100px;
+    height: 40px;
+}
+.container_three>div+div{
+    margin-left: 40px;
+}
+.zip{
+    width: 57%;
+}
+
