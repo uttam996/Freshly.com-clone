@@ -135,6 +135,18 @@ getEliment("#submit").addEventListener("click",()=>{
 })
 
 
+document.querySelectorAll(".title").forEach(button => {
+    button.addEventListener("click", () => {
+        console.log("added")
+        // const Relevant = button.nextElementSibling;
+        button.classList.toggle("title--active")
+        // if (button.classList.contains("title--active")) {
+        //     Relevant.style.maxHeight = Relevant.scrollHeight + `px`;
+        // }
+    });
+
+})
+
 
 
 
