@@ -51,7 +51,7 @@ function next(){
 
 function append(obj){
     let h=create("h3")
-    h.innerText="Delhivary Summary"
+    h.innerText="Delivery Summary"
     let div=create("div")
     div.id="user_details"
     let name=create("h3")
@@ -128,6 +128,7 @@ getEliment("#submit").addEventListener("click",()=>{
         timer: 5000
       })
      
+      window.location.href="../Home Page/index.html"
      
      
 
