@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 
 <body>
@@ -25,19 +26,19 @@
                     </li>
                 </a>
                 <!-- need to give Home page link here -->
-                <a href="ff">
+                <a href="./Home Page/index.html">
                     <li>For Business
                     </li>
                 </a>
                 <!-- need to give Gift page link here -->
-                <a href="ff">
+                <a href="./Gift page/gitf.html">
                     <li>Gifts </li>
                 </a>
             </ul>
         </div>
         <div>
             <!-- need to give link for home page -->
-            <a href=""><img
+            <a href="./Home Page/index.html"><img
                     src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg"
                     alt=""></a>
         </div>
@@ -49,7 +50,7 @@
                     </li>
                 </a>
                 <!-- need to give help page link here -->
-                <a href="">
+                <a href="./help Page/help.html">
                     <li>Help
                     </li>
                 </a>
@@ -63,6 +64,7 @@
 
             </ul>
         </div>
+
 
 
     </div>
@@ -96,5 +98,9 @@
 
 </body>
 <script src="./script/login.js"></script>
+<script type="module">
+    import footer from "./Home Page/components/footer.js"
+    document.getElementById("footercomponent").innerHTML = footer()
+</script>
 
 </html>
