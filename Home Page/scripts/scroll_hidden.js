@@ -16,3 +16,4 @@
         lastScrollY = window.scrollY;
     })
 }
+
