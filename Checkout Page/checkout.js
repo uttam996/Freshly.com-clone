@@ -127,8 +127,10 @@ getEliment("#submit").addEventListener("click",()=>{
         showConfirmButton: false,
         timer: 5000
       })
-     
-      window.location.href="../Home Page/index.html"
+     setTimeout(()=>{
+        window.location.href="../Home Page/index.html"
+     },5000)
+    
      
      
 
