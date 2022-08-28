@@ -5,9 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How to work</title>
-    <link rel="stylesheet" href="howtowork.css">
+    <link rel="stylesheet" href="./howtowork.css">
 </head>
 <body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div id="freshly_logo">
+            <a href="../Home Page/index.html"><img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" alt="freshly logo"></a>
+        </div>
+        <div id="titles">
+            <a href="../plan&menu.html">Plans & Menu</a>
+            <a href="../How To Work/howtoWork.html">How it Works</>
+            <a href="../Gift page/gitf.html">Gifts</>
+            <a href="">Refer a Friend</>
+            <a href="../help Page/help.html">Help</>
+        </div>
+        <div id="login_signup">
+            <a href="../login.html" class="login">Log In</a>
+            <a href="../signup.html" class="signup"><button>Sign Up</button></a>
+        </div>
+    </div>
+
    <div id="container">
     <!-- About Section -->
     <div id="inner-about-container">
@@ -94,5 +113,19 @@
             <button>Learn More</button>
            </div>
     </div>   
+
+       <!-- footer -->
+       <div id="footer">
+        <!-- <a href="../Home Page/components/footer.js"></a> -->
+</div>
 </body>
 </html>
+
+<script type="module">
+    
+    import footer from "../Home Page/components/footer.js"
+
+    document.getElementById("footer").innerHTML = footer();
+
+</script>
+
