@@ -84,7 +84,7 @@ svg {
     margin: auto;
     padding: 10px;
     margin-top: 10px;
-
+    margin-bottom: 80px;
 }
 
 
@@ -103,6 +103,12 @@ svg {
     font-size: 18px;
 
 
+}
+
+#useremail:focus,
+#userpassword:focus,
+#username:focus {
+    outline: 0.5px solid #3167ff;
 }
 
 ::placeholder {

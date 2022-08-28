@@ -24,11 +24,49 @@ var swiper = new Swiper(".mySwiper", {
     login.innerHTML = login_showData.name;
     signup.innerText = 'Log Out'; 
     signup.setAttribute('class','logout');
-  }
-  let logout = document.querySelector('.logout');
+    let logout = document.querySelector('.logout');
   logout.addEventListener("click",(event) => {
     // event.preventDefault();
     localStorage.setItem('Login_details',JSON.stringify(null));
     window.location.href = 'signup.html';
   });
+  }
+  // let logout = document.querySelector('.logout');
+  // logout.addEventListener("click",(event) => {
+  //   // event.preventDefault();
+  //   localStorage.setItem('Login_details',JSON.stringify(null));
+  //   window.location.href = 'signup.html';
+  // });
+
+  let div = document.querySelectorAll("#freshly_items>div");
+  div.forEach((ele) => {
+      ele.addEventListener("click",()=>{
+        click();
+      });
+  });
+  let MealsCont = document.querySelector('.meals_containesr');
+  let cross = document.querySelector('.cross');
+  let freshly_items = document.querySelector('#freshly_items');
+  let freshly_meals = document.querySelector('#freshly_meals');
+  let background_veggies = document.querySelector('#background_veggies>img');
+  let plans_menu = document.querySelector('#plans_menu');
+  let click = () => {
+    MealsCont.style.display="block"
+             freshly_items.style.opacity="0.1";
+             freshly_meals.style.opacity="0.1";
+             background_veggies.style.opacity="0.1";
+             plans_menu.style.opacity="0.3";
+  }
+
+  cross.addEventListener("click",() =>{
+    close();
+  })
+
+  let close = () => {
+    MealsCont.style.display="none";
+    freshly_items.style.opacity="1";
+             freshly_meals.style.opacity="1";
+             background_veggies.style.opacity="1";
+  }
+
 
