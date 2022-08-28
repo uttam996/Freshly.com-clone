@@ -28,7 +28,7 @@ function Loginfunction(event) {
     document.getElementById("username").value = "";
     document.getElementById("useremail").value = "";
     document.getElementById("userpassword").value = "";
-    window.location.href = "./Home Page/index.html";
+    window.location.href = "./index.html";
     localStorage.setItem("Login_details", JSON.stringify(UserLoginvalue));
   }
 
