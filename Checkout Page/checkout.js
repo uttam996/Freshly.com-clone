@@ -68,3 +68,4 @@ size[0].innerText=cart.length
 
 }
 updatePrice()
+
