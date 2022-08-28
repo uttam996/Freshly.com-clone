@@ -88,7 +88,7 @@ function displayCart(){
     //             </div>
 
    cart_cont.innerText=""
-    cartData.forEach((el) => {
+    cartData.forEach((el,index) => {
     let main_div=create("div")
     let cart_img=create("img")
     let Titte_div=create("div")
@@ -113,6 +113,18 @@ function displayCart(){
    
     plus.innerText="+"
     minus.innerText="-"
+
+    plus_div1.addEventListener("click",()=>{
+        cartData.push(el)
+        localStorage.setItem("mealsCart",JSON.stringify(cartData))
+        displayCart()
+    })
+    plus_div2.addEventListener("click",()=>{
+  cartData.splice(index,1)
+  localStorage.setItem("mealsCart",JSON.stringify(cartData))
+  displayCart()
+
+    })
 
     plus_div.setAttribute("class","plus_mines")
     plus_div.append(plus_div1,plus_div2)
@@ -176,8 +188,8 @@ getEliment("#clear").addEventListener("click",()=>{
 
 getEliment("#next").addEventListener("click",()=>{
     let price=getEliment("#price_cart").innerText
-    price.split(" ")[3]
-    localStorage.setItem("cartPrice",JSON.stringify("price"))
+    price=price.split(" ")[2]
+    localStorage.setItem("cartPrice",JSON.stringify(price))
     window.location.href="../Checkout Page/checkout.html"
 })
 

@@ -202,7 +202,10 @@ button:hover
 
 
 /* Navbar */
+<<<<<<< HEAD
 
+=======
+>>>>>>> 57ffc270097fd937034f38552dd0198c0d4cc5bb
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -210,8 +213,12 @@ button:hover
     background-color: #fffdf7;
     width: 100%;
     height: 80px;
+<<<<<<< HEAD
     position: sticky;
     top: 0;
+=======
+    position: fixed;
+>>>>>>> 57ffc270097fd937034f38552dd0198c0d4cc5bb
     z-index: 2;
     transition: transform 0.1s;
 }
@@ -220,7 +227,11 @@ button:hover
 }
 #freshly_logo{
     width: 20%;
+<<<<<<< HEAD
     /* border: 0px solid red; */
+=======
+    border: 0px solid red;
+>>>>>>> 57ffc270097fd937034f38552dd0198c0d4cc5bb
     padding: 2%;
 } 
 #freshly_logo>a>img{
@@ -244,23 +255,37 @@ button:hover
 #login_signup{
     display: flex;
     width: 18%;
+<<<<<<< HEAD
     padding: 2%;
     justify-content: center;
     align-items: center;
     /* border: 1px solid teal; */
+=======
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+>>>>>>> 57ffc270097fd937034f38552dd0198c0d4cc5bb
 }
 #login_signup>.signup{
     margin-left: 30px;
 }
 .signup>button{
+<<<<<<< HEAD
     /* border: 0px solid red; */
+=======
+    border: 0px solid red;
+>>>>>>> 57ffc270097fd937034f38552dd0198c0d4cc5bb
     background-color: #3167ff;
     font-family: sans-serif;
     color: white;
     font-size: 18px;
+<<<<<<< HEAD
     border: none;
     padding: 6px 11px;
 
+=======
+    padding: 6px 11px;
+>>>>>>> 57ffc270097fd937034f38552dd0198c0d4cc5bb
 }
 .login{
     font-family: sans-serif;
@@ -276,6 +301,7 @@ button:hover
     display: flex;
     margin-top: 70px;
 }
+<<<<<<< HEAD
 
 /* footer */
 #footer{
@@ -331,3 +357,5 @@ button:hover
     margin-top: 20px;
 }
 
+=======
+>>>>>>> 57ffc270097fd937034f38552dd0198c0d4cc5bb

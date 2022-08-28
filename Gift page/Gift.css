@@ -326,6 +326,8 @@ button:hover
 #login_signup{
     display: flex;
     width: 18%;
+    justify-content: center;
+    align-items: center;
     padding: 2%;
     justify-content: center;
     align-items: center;
@@ -340,9 +342,9 @@ button:hover
     font-family: sans-serif;
     color: white;
     font-size: 18px;
+    padding: 6px 11px;
     border: none;
     padding: 6px 11px;
-
 }
 .login{
     font-family: sans-serif;
