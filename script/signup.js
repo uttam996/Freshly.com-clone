@@ -10,7 +10,8 @@ let collectdata = () => {
     let data = document.getElementById("error");
     data.innerText = "Pleas Enter Valid Zip code";
     data.style.color = "red";
-    data.style.marginTop = "5px";
+    data.style.marginbottm = "5px";
+    data.style.marginleft = "100px";
   } else {
     document.getElementById("email").value = "";
     document.getElementById("Zip").value = "";

@@ -65,18 +65,31 @@ body {
 }
 #login_signup{
     display: flex;
-    width: 12%;
+    width: 20%;
     padding: 2%;
+    border: 0px solid red;
 }
 #login_signup>.signup{
     margin-left: 30px;
 }
-.signup>button{
+
+.signupBtn,.logout{
     border: 0px solid red;
     background-color: #3167ff;
     font-family: sans-serif;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
+    padding: 5px;
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 1.2s;
+    border-radius: 2px;
+}
+.signupBtn:hover,.logout:hover{
+    transform: translate(3px,-3px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
 }
 .login{
     font-family: sans-serif;
